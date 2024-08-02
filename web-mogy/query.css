@@ -1,0 +1,205 @@
+/* HEADER */
+
+@media (max-width: 599px) {
+	header {
+		position: relative;
+	}
+
+	.header-info-container {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.triangle {
+		display: none;
+	}
+	header nav {
+		display: none;
+		position: absolute;
+		top: 0px;
+		background-color: var(--dark-blue);
+		width: 100%;
+	}
+	.nav-container {
+		background: none;
+		position: relative;
+	}
+
+	nav li {
+		display: block;
+		list-style-type: none;
+		margin-right: 20px;
+		margin-left: 20px;
+		font-size: 20px;
+	}
+
+	.menu-icon {
+		display: block;
+		color: white;
+		font-size: 23px;
+		position: absolute;
+	}
+	header nav li {
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.header-right {
+		display: none;
+	}
+	.header-text {
+		width: 90%;
+		margin: 0 auto;
+		font-size: 15px;
+		padding: 0px;
+		top: 350px;
+	}
+}
+/* HEADER BETWEEN pod 1000px */
+
+@media (max-width: 1100px) {
+	.header-between {
+		display: none;
+	}
+	.section-about-us {
+		padding-top: 70px;
+	}
+	.header-text {
+		top: 320px;
+	}
+}
+
+/* ABOUT-US */
+
+@media (max-width: 599px) {
+	.icon-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.icon-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.icon-text {
+		padding-bottom: 25px;
+		padding-top: 10px;
+	}
+	.about-us-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+/* PROMO SECTION  */
+
+@media (max-width: 599px) {
+	.promo-wrapper {
+		margin: 0 auto;
+		width: 90%;
+		display: flex;
+		gap: 15px;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+	}
+	.promo-card {
+		height: 100px;
+		width: 250px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 8px;
+		position: relative;
+	}
+}
+/* PROMOSECTION SERVICES-HTML */
+
+@media (max-width: 720px) {
+	.service-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+	.service-header {
+		justify-content: center;
+	}
+	.service-content {
+		text-align: center;
+	}
+	/* .service-photo {
+		display: none;
+	} */
+}
+
+/* CONTACT SECTION */
+
+@media (max-width: 599px) {
+	.contact-wrapper {
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.contact-text {
+		flex-basis: 100%;
+		align-items: center;
+	}
+}
+/*  MAP */
+@media (max-width: 759px) {
+	.contact-wrapper {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.contact-text {
+		align-items: center;
+	}
+}
+
+/* SECTION THREE - PRICE LIST */
+
+@media (max-width: 599px) {
+	.table-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+/* TOP CIRCLE */
+
+@media (max-width: 400px) {
+	.top-circle {
+		bottom: 20px;
+		right: 60px;
+	}
+}
+/*600px ---------------------------------*/
+
+@media (min-width: 600px) {
+	header nav {
+		display: block !important;
+	}
+	.header-container {
+		width: 70%;
+		margin: 0 auto;
+		border-radius: 0 0 10px 10px;
+	}
+	nav li {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+
+/* 600 - 700 */
+
+@media (max-width: 700px) {
+	nav li {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+@media (max-width: 800px) {
+	.header-right {
+		display: none;
+	}
+}
