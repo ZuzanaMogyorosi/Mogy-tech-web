@@ -394,17 +394,15 @@ nav li a {
 	display: flex;
 	justify-content: space-between;
 }
-.maps-wrapper {
+#maps-wrapper {
 	flex-basis: 50%;
 	max-width: 100%;
 }
 .contact-logo {
 	width: 220px;
-	margin-bottom: 20px;
 }
 .contact-text {
 	flex-basis: 50%;
-	background-color: var(--contact-text-background);
 	color: var(--text-black);
 	display: flex;
 	flex-direction: column;
@@ -468,7 +466,71 @@ td:last-child {
 .footer-image {
 	background-color: #15324c;
 	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23606970' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-	height: 400px;
+}
+.footer-container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 70px 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.footer-column {
+	flex: 1;
+	margin: 0 20px;
+	min-width: 200px;
+	text-align: center;
+}
+
+.footer-column h2 {
+	font-size: 18px;
+	margin-bottom: 20px;
+	color: var(--orange);
+}
+
+.footer-column p,
+.footer-column ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-column ul li {
+	margin-bottom: 10px;
+}
+.footer-column ul li a {
+	color: var(--white-text);
+	text-decoration: none;
+}
+
+.phone-number {
+	font-size: 20px;
+	color: var(--orange);
+}
+
+.social-icons {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.social-icons img {
+	width: 20px;
+	height: 20px;
+}
+
+.footer-bottom {
+	text-align: center;
+	padding: 20px 0;
+	background-color: #17212b;
+	font-size: 14px;
+	color: #ff6f61;
+}
+
+.footer-bottom p {
+	margin: 0;
 }
 
 /*---------------------------------------------------------------------------------------------------*/
