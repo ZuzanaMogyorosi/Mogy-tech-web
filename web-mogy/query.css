@@ -64,8 +64,21 @@
 	.section-about-us {
 		padding-top: 70px;
 	}
-	.header-text {
-		top: 320px;
+}
+
+/* MONTHLY PROMO */
+@media (max-width: 1100px) {
+	.monthly-promo {
+		padding-top: 70px;
+	}
+}
+@media (max-width: 800px) {
+	.monthly-promo-images {
+		display: none;
+	}
+
+	.monthly-content {
+		flex-basis: 100%;
 	}
 }
 
@@ -115,11 +128,33 @@
 /* PROMOSECTION SERVICES-HTML */
 
 @media (max-width: 720px) {
-	.service-wrapper {
-		display: flex;
+	.section-services {
+		width: 90%;
+		margin: 0 auto;
+	}
+	#car-service.service-wrapper,
+	#tire-service.service-wrapper,
+	#car-electricity-service.service-wrapper,
+	#air-conditioner-service.service-wrapper,
+	#technical-control-service.service-wrapper,
+	#spare-parts.service-wrapper,
+	#clean-car.service-wrapper,
+	#wrecked-vehicle.service-wrapper,
+	#welding.service-wrapper {
 		flex-wrap: wrap;
 		justify-content: center;
 		margin-bottom: 30px;
+		gap: 10px;
+	}
+	#car-electricity-service .service-photo {
+		background-position: 50% 25%;
+	}
+
+	#technical-control-service .service-photo {
+		background-position: 50% 0%;
+	}
+	#welding .service-photo {
+		background-position: 50% 70%;
 	}
 	.service-header {
 		justify-content: center;
@@ -127,9 +162,19 @@
 	.service-content {
 		text-align: center;
 	}
-	/* .service-photo {
-		display: none;
-	} */
+
+	#car-service .service-photo,
+	#tire-service .service-photo,
+	#car-electricity-service .service-photo,
+	#air-conditioner-service .service-photo,
+	#technical-control-service .service-photo,
+	#spare-parts .service-photo,
+	#clean-car .service-photo,
+	#wrecked-vehicle .service-photo,
+	#welding .service-photo {
+		height: 150px;
+		flex-basis: 100%;
+	}
 }
 
 /* CONTACT SECTION */
@@ -143,6 +188,9 @@
 	.contact-text {
 		flex-basis: 100%;
 		align-items: center;
+	}
+	.contact-logo-wrapper {
+		justify-content: center;
 	}
 }
 /*  MAP */
@@ -163,6 +211,13 @@
 	.table-wrapper {
 		width: 90%;
 		margin: 0 auto;
+	}
+}
+/* FOOTER */
+
+@media (max-width: 900px) {
+	.footer-container {
+		flex-direction: column;
 	}
 }
 /* TOP CIRCLE */
